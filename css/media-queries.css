@@ -45,12 +45,17 @@
     }
     .panel {
         font-weight: bolder;
-  }
+    }
+    .accordion-btn:hover,
+    .accordion-btn:focus, 
+    .accordion-btn:active {
+        font-weight: normal;
+    }
     .accordion-btn:hover .arrow img,
     .accordion-btn:focus .arrow img,
     .accordion-btn:active .arrow img {
-    transform: rotate(180deg);
-  }
+        transform: rotate(180deg);
+    }
     .woman-image {
         position: absolute;
         top: -100px;
