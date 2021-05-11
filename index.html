@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- For external style sheets -->
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+  <link rel="stylesheet" type="text/css" href="css/hamburger-animation.css">
+  <link rel="stylesheet" type="text/css" href="css/dark-mode-button.css">
+  <link rel="stylesheet" type="text/css" href="css/dark-styles.css">
+  <!--Jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!--Makes menus on mobile devices responsive to touch (include :hover and :active)-->
+  <script>document.addEventListener("touchstart", function(){}, true);</script>
+  <!-- For custom fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  <!-- Font awesome stuff -->
+  <link href="../public/fontawesome/css/all.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/b96c1e7f03.js"></script>
+  <title></title>
+  <style>
+
+    *, *:before, *:after {
+    box-sizing: border-box;
+    }
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+  
+  html {
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  header, article, main, section, footer {
+    height: auto;
+  }
+
+  body {
+  width: 1440px;
+  margin: 0 auto;
+  max-width: 100%;
+  min-height: 100%;
+  font-family: 'Kumbh Sans', sans-serif; /* weights: 400 and 700 */
+  overflow-x: hidden;
+  padding-inline-start: 0%;
+  font-size: 12px;
+  line-height: 1.5;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul, li {
+    list-style: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+</style>
+</head>
+
+<body class="light-mode">
+  <header>
+    <div class="page-container">
+      <div class="faq-card">
+
+        <picture class="woman-image">
+          <source srcset="images/illustration-woman-online-desktop.svg" media="(min-width: 768px">
+          <img src="images/illustration-woman-online-mobile.svg">
+        </picture>
+
+        <div class="accordion-menus">
+          <div class="accordion-title">
+            FAQ
+          </div>
+
+          <button class="accordion-btn" onclick="togglediv('panel1')">How many team members can I invite?
+            <span class="arrow"><img src="images/icon-arrow-down.svg" width="10" height="7"></span>
+          </button>
+          <div class="panel" id="panel1">
+            You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.
+          </div>
+
+          <button class="accordion-btn" onclick="togglediv('panel2')">What is the maximum file upload size?
+            <span class="arrow"><img src="images/icon-arrow-down.svg" width="10" height="7"></span>
+          </button>
+          <div class="panel" id="panel2">
+            No more than 2GB. All files in your account must fit your allotted storage space.
+          </div>
+
+          <button class="accordion-btn" onclick="togglediv('panel3')">How do I reset my password?
+            <span class="arrow"><img src="images/icon-arrow-down.svg" width="10" height="7"></span>
+          </button>
+          <div class="panel" id="panel3">
+            Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.
+          </div>
+
+          <button class="accordion-btn" onclick="togglediv('panel4')">Can I cancel my subscription?
+            <span class="arrow"><img src="images/icon-arrow-down.svg" width="10" height="7"></span>
+          </button>
+          <div class="panel" id="panel4">
+            Yes! Send us a message and we’ll process your request no questions asked.
+          </div>
+
+          <button class="accordion-btn" onclick="togglediv('panel5')">Do you provide additional support?
+            <span class="arrow"><img src="images/icon-arrow-down.svg" width="10" height="7"></span>
+          </button>
+          <div class="panel" id="panel5">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+
+      <!--dark mode button-->
+      <button class="dark-mode-button" 
+        aria-label="Toggle Dark Mode">
+        <span></span>
+        <span></span>
+	    </button>
+    </div>
+  </header> 
+  
+ <!-- For JS Scripts -->
+ <script type="text/javascript" src="js/hamburger.js"></script>
+ <script type="text/javascript" src="js/dark-mode-toggle.js"></script>
+ <script type="text/javascript" src="js/accordion-toggle.js"></script>
+</body>
+</html>

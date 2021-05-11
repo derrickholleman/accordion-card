@@ -1,0 +1,56 @@
+@media screen and (max-width: 320px) {
+    
+}
+
+@media screen and (min-width: 321px) and (max-width: 576px) {
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+
+}
+
+/* --------------------- */
+/* SWITCH TO MOBILE VIEW */
+/* --------------------- */
+@media screen and (max-width: 768px) {
+    .faq-card {
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+        overflow-x: visible;
+        margin: 10rem 1rem;
+    }
+    .accordion-menus {
+        margin: 7rem 1rem 0 1rem;
+        max-width: 100%;
+        padding-bottom: 2rem;
+    }
+    .accordion-title {
+        text-align: center;
+    }
+    .accordion-btn {
+        min-width: 100%;
+        text-align: center;
+    }
+    .woman-image {
+        position: absolute;
+        top: -100px;
+        left: 85px;
+    }
+}
+/* --------------------- */
+/* SWITCH TO MOBILE VIEW */
+/* --------------------- */
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1536px) {
+    
+}

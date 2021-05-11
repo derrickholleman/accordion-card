@@ -1,0 +1,88 @@
+  body {
+    background-color: rgb(235, 235, 235);
+  }
+  
+  .page-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+      to bottom, 
+    hsl(273, 75%, 66%), 
+    hsl(240, 73%, 65%)
+    );
+    display: grid;
+    place-items: center center;
+  }
+  .faq-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+    max-width: 55rem;
+    height: 30rem;
+    border-radius: 20px;
+    overflow-x: hidden;
+  }
+  .woman-image {
+    position: relative;
+    margin-left: -3rem;
+    margin-right: 2.5rem;
+  }
+
+  .accordion-menus {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+  }
+
+  .accordion-title {
+    color: hsl(238, 29%, 16%);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: .8rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .accordion-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 0;
+    background-color: transparent;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(237, 12%, 33%);
+    cursor: pointer;
+    font-size: .85rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid hsl(240, 6%, 86%);
+    min-width: 339px;
+  }
+  .accordion-btn:hover, 
+  .accordion-btn:focus {
+    color: hsl(14, 88%, 65%);
+  }
+  .accordion-btn:focus .arrow img,
+  .accordion-btn:active .arrow img {
+    transform: rotate(180deg);
+  }
+  
+  .arrow img {
+    margin-left: 5rem;
+    transform: rotate(0deg);
+    transition: .2s ease-in-out;
+  }
+
+  .panel {
+    display: none;
+    color: hsl(237, 12%, 33%);
+    font-size: .85rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    max-width: 339px; /* prevents panels from changing width while open */
+    transition: .5 ease-in-out;
+  }

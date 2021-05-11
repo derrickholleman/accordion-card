@@ -1,0 +1,28 @@
+/* body.dark-mode classname to specify dark mode styles */
+
+body.dark-mode {
+    background-color: rgb(20, 21, 22);
+    color: rgb(206, 212, 226);
+}
+
+body.dark-mode .page-container {
+  background: rgb(20, 21, 22);
+}
+
+body.dark-mode .accordion-title {
+  color: white;
+}
+body.dark-mode .faq-card {
+  background-color: rgb(10, 10, 10);
+}
+body.dark-mode .accordion-btn {
+  color: rgb(255, 255, 255);
+}
+body.dark-mode .accordion-btn:hover, 
+body.dark-mode .accordion-btn:active, 
+body.dark-mode .accordion-btn:focus {
+  color: rgb(148, 148, 148);
+}
+body.dark-mode .panel {
+  color: rgba(255, 255, 255, .75);
+}
