@@ -95,7 +95,7 @@
     color: hsl(237, 12%, 33%);
     font-size: .85rem;
     font-weight: bold;
-    padding-top: 1rem;
+    padding-top: .5rem;
     max-width: 339px; /* prevents panels from changing width while open */
     animation: fadeIn .3s ease-in-out;
   }
