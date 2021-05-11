@@ -1,7 +1,7 @@
 # accordion-card
 made a card from a template on Frontend Mentor which has a dropdown menu that functions like an accordion.
 
-menu section folds down on click, hiding other open menus.  
+menu section folds down on click, hiding other open menus.  Accordion design is responsive for all screen sizes.
 
 live site - https://derrickholleman.github.io/accordion-card/
 
