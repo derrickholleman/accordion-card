@@ -85,7 +85,7 @@
     display: none;
     color: hsl(237, 12%, 33%);
     font-size: .85rem;
-    font-weight: 400;
+    font-weight: bold;
     padding-top: 1rem;
     max-width: 339px; /* prevents panels from changing width while open */
     transition: .5 ease-in-out;

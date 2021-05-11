@@ -54,7 +54,7 @@
     .accordion-btn:active {
         font-weight: normal;
     }
-    .accordion-btn:hover .arrow img,
+    .accordion-btn:hover .arrow img, /* hover is for mobile only in this case */
     .accordion-btn:focus .arrow img,
     .accordion-btn:active .arrow img {
         transform: rotate(180deg);
