@@ -20,11 +20,11 @@
 /* --------------------- */
 @media screen and (max-width: 768px) {
     .page-container {
-        height: 800px;
+        height: 1000px;
     }
     .faq-card {
         position: relative;
-        top: -75px;
+        top: -50px;
         flex-direction: column;
         max-width: 100%;
         height: auto;
