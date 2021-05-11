@@ -63,7 +63,8 @@
     min-width: 339px;
   }
   .accordion-btn:hover, 
-  .accordion-btn:active {
+  .accordion-btn:active,
+  .accordion-btn:focus {
     color: hsl(14, 88%, 65%);
   }
   .accordion-btn:focus, 
