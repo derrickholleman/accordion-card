@@ -1,5 +1,10 @@
 @media screen and (max-width: 320px) {
-    
+    .accordion-title {
+        margin-top: -2rem;
+    }
+    .woman-image {
+        min-width: 250px;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
@@ -14,12 +19,17 @@
 /* SWITCH TO MOBILE VIEW */
 /* --------------------- */
 @media screen and (max-width: 768px) {
+    .page-container {
+        height: 800px;
+    }
     .faq-card {
+        position: relative;
+        top: -75px;
         flex-direction: column;
         max-width: 100%;
         height: auto;
         overflow-x: visible;
-        margin: 10rem 1rem;
+        margin: 0rem 1rem;
     }
     .accordion-menus {
         margin: 7rem 1rem 0 1rem;
