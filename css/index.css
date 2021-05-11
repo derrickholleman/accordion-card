@@ -97,4 +97,16 @@
     font-weight: bold;
     padding-top: 1rem;
     max-width: 339px; /* prevents panels from changing width while open */
+    animation: fadeIn .3s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    100% {
+      opacity: 100%;
+      transform: scale(1);
+    }
   }
