@@ -66,7 +66,8 @@
   .accordion-btn:active {
     color: hsl(14, 88%, 65%);
   }
-  .accordion-btn:focus {
+  .accordion-btn:focus, 
+  .accordion-btn:active {
     font-weight: bolder;
   }
   .accordion-btn:focus .arrow img,
