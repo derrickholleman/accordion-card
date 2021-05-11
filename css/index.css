@@ -88,5 +88,4 @@
     font-weight: bold;
     padding-top: 1rem;
     max-width: 339px; /* prevents panels from changing width while open */
-    transition: .5 ease-in-out;
   }
