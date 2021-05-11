@@ -80,6 +80,7 @@
   .accordion-btn:active {
     font-weight: bolder;
   }
+  /* only activates on click */
   .accordion-btn:focus .arrow img,
   .accordion-btn:active .arrow img {
     transform: rotate(180deg);
