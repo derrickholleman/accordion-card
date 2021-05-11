@@ -88,7 +88,7 @@
   .arrow img {
     margin-left: 3rem;
     transform: rotate(0deg);
-    transition: .2s ease-in-out;
+    transition: .5s ease-in-out;
   }
   .panel {
     display: none;
@@ -99,7 +99,7 @@
     max-width: 339px; /* prevents panels from changing width while open */
     animation: fadeIn .3s ease-in-out;
   }
-
+  /* necessary for transition since the panels go from display none to block */
   @keyframes fadeIn {
     0% {
       opacity: 0;
