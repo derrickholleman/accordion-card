@@ -16,6 +16,15 @@
     display: grid;
     place-items: center center;
   }
+  .faq-box {
+    position: relative;
+  }
+  .box {
+    position: absolute;
+    top: 199px;
+    left: -90px;
+    z-index: 2;
+  }
   .faq-card {
     display: flex;
     flex-direction: row;
@@ -30,7 +39,7 @@
   }
   .woman-image {
     position: relative;
-    margin-left: -3rem;
+    margin-left: -4.5rem;
     margin-right: 2.5rem;
   }
 
