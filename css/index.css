@@ -76,11 +76,10 @@
   }
   
   .arrow img {
-    margin-left: 5rem;
+    margin-left: 3rem;
     transform: rotate(0deg);
     transition: .2s ease-in-out;
   }
-
   .panel {
     display: none;
     color: hsl(237, 12%, 33%);

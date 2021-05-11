@@ -5,6 +5,9 @@
     .woman-image {
         min-width: 250px;
     }
+    .arrow img {
+        margin-left: 1rem;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
