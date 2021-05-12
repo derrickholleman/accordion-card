@@ -17,7 +17,7 @@
     place-items: center center;
   }
   .faq-box {
-    position: relative;
+    position: relative; /* faq box container is needed to absolutely position the box image and overwrite overflow-x: hidden because this faq-box sits on top of the faq-card */
   }
   .box {
     position: absolute;
@@ -101,7 +101,7 @@
     color: hsl(237, 12%, 33%);
     font-size: .85rem;
     font-weight: bold;
-    padding-top: .5rem;
+    padding-top: .5rem; /* gives the panel text some space from border */
     max-width: 339px; /* prevents panels from changing width while open */
     transition: max-height .2s;
     cursor: pointer;
