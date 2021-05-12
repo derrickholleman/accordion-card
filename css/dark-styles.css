@@ -9,7 +9,7 @@ body.dark-mode .page-container {
   background: rgb(20, 21, 22);
 }
 
-body.dark-mode .accordion-title {
+body.dark-mode .faq-title {
   color: white;
 }
 body.dark-mode .faq-card {
