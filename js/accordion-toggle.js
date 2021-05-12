@@ -7,9 +7,5 @@ function togglediv(id) {
         // Hide other DIVs
         div.style.display = "none";
       }
-
-      function ani(){
-        document.getElementsByClassName('panel').panel ='panel';
-      }
     });
   }

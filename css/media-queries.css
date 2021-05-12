@@ -52,6 +52,11 @@
     .panel {
         font-weight: bolder;
     }
+    .panel:hover, 
+    .panel:active,
+    .panel:focus {
+        animation: fadeIn .3s ease-in-out;
+    }
     .accordion-btn:hover,
     .accordion-btn:focus, 
     .accordion-btn:active {
