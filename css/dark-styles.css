@@ -21,7 +21,7 @@ body.dark-mode .accordion-btn {
 body.dark-mode .accordion-btn:hover, 
 body.dark-mode .accordion-btn:active, 
 body.dark-mode .accordion-btn:focus {
-  color: rgb(148, 148, 148);
+  color: rgb(104, 98, 230);
 }
 body.dark-mode .panel {
   color: rgba(255, 255, 255);
