@@ -99,19 +99,8 @@
     padding-top: .5rem;
     max-width: 339px; /* prevents panels from changing width while open */
     animation: fadeIn .3s ease-in-out;
-    -webkit-animation: fadeIn .3s ease-in-out;
   }
   /* necessary for transition since the panels go from display none to block */
-  @-webkit-keyframes fadeIn {
-    0% {
-      opacity: 0;
-      transform: scale(0);
-    }
-    100% {
-      opacity: 100%;
-      transform: scale(1);
-    }
-  }
   @keyframes fadeIn {
     0% {
       opacity: 0;
