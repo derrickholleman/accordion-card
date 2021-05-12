@@ -80,7 +80,7 @@
   .accordion-btn:active {
     font-weight: bolder;
   }
-  /* only activates on click */
+  /* only activates arrow transform on click */
   .accordion-btn:focus .arrow img,
   .accordion-btn:active .arrow img {
     transform: rotate(180deg);
@@ -92,23 +92,14 @@
     transition: .4s ease-in-out;
   }
   .panel {
-    display: none;
+    max-height: 0px; /* needed for accordion toggle */
+    overflow: hidden; /* hides panel text */
     color: hsl(237, 12%, 33%);
     font-size: .85rem;
     font-weight: bold;
     padding-top: .5rem;
     max-width: 339px; /* prevents panels from changing width while open */
-    animation: fadeIn .3s ease-in-out;
+    transition: max-height .2s;
   }
-  /* necessary for transition since the panels go from display none to block */
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-      transform: scale(0);
-    }
-    100% {
-      opacity: 100%;
-      transform: scale(1);
-    }
-  }
+
 /* ACCORDION STYLES END */ 
