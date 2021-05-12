@@ -21,7 +21,7 @@
 /* --------------------- */
 /* SWITCH TO MOBILE VIEW */
 /* --------------------- */
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .box {
         display: none;
     }
@@ -56,9 +56,9 @@
     .accordion-btn:focus, 
     .accordion-btn:active {
         font-weight: normal;
-    } */
-    /* .accordion-btn:hover .arrow img, */
-    /* .accordion-btn:focus .arrow img,
+    }
+    .accordion-btn:hover .arrow img, /* hover is for mobile only in this case */
+    .accordion-btn:focus .arrow img,
     .accordion-btn:active .arrow img {
         transform: rotate(180deg);
     }
@@ -67,7 +67,7 @@
         top: -100px;
         left: 85px;
     }
-} */
+}
 /* --------------------- */
 /* SWITCH TO MOBILE VIEW */
 /* --------------------- */
