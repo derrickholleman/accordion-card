@@ -42,14 +42,17 @@
     margin-left: -4.5rem;
     margin-right: 2.5rem;
   }
+
+/* ---------------------- */
 /* ACCORDION STYLES START */ 
-  .accordion-menus {
+/* ---------------------- */
+  .accordion-container {
     display: flex;
     flex-direction: column;
     margin-right: 3rem;
   }
 
-  .accordion-title {
+  .faq-title {
     color: hsl(238, 29%, 16%);
     font-size: 2rem;
     font-weight: 700;
@@ -60,7 +63,7 @@
   .accordion-btn {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; /* separates text from arrows */
     border: 0;
     background-color: transparent;
     font-family: 'Kumbh Sans', sans-serif;
@@ -69,7 +72,7 @@
     font-size: .85rem;
     padding: 1rem 0;
     border-bottom: 1px solid hsl(240, 6%, 86%);
-    min-width: 339px;
+    min-width: 339px; /* sets width for accordion buttons */
   }
   .accordion-btn:hover, 
   .accordion-btn:active,
@@ -80,17 +83,18 @@
   .accordion-btn:active {
     font-weight: bolder;
   }
-  /* only activates arrow transform on click */
-  .accordion-btn:focus .arrow img,
-  .accordion-btn:active .arrow img {
-    transform: rotate(180deg);
-  }
   
   .arrow img {
     margin-left: 3rem;
     transform: rotate(0deg);
     transition: .4s ease-in-out;
   }
+  /* only activates arrow transform on click */
+  .accordion-btn:focus .arrow img,
+  .accordion-btn:active .arrow img {
+    transform: rotate(180deg);
+  }
+
   .panel {
     max-height: 0px; /* needed for accordion toggle */
     overflow: hidden; /* hides panel text */
@@ -103,4 +107,6 @@
     cursor: pointer;
   }
 
-/* ACCORDION STYLES END */ 
+/* -------------------- */
+/* ACCORDION STYLES END */
+/* -------------------- */ 
