@@ -13,14 +13,14 @@ function questionClicked() {
 }
 
 function multipleAnswers(clickedElement) {
-    // iterate over each element in the document checking for an "active-question" class
+    // iterate over each element in the document checking for an "active-button" class
     var allQuestions = document.querySelectorAll(".question-wrapper");
     for (var i = 0; i < allQuestions.length; i++) {
         if (
             allQuestions[i]
             .querySelector(".accordion-btn")
             .classList.toString()
-            .includes("active-question") &&
+            .includes("active-button") &&
             allQuestions[i].querySelector(".accordion-btn").classList !==
             clickedElement.querySelector(".accordion-btn").classList
         ) {
@@ -30,8 +30,8 @@ function multipleAnswers(clickedElement) {
     toggleQuestion(clickedElement);
 
     //////////
-    // if the current iteration has the class "active-question"
-    // then close that answer panel, by toggling the "active-question" class on the .question element && toggle
+    // if the current iteration has the class "active-button"
+    // then close that answer panel, by toggling the "active-button" class on the .question element && toggle
     // "displayed" && "hidden" on the .answer element.
     //
     // then toggle the same classes on the clicked question wrapper to open.
@@ -44,7 +44,7 @@ function displayAnswer(clickedElement) {
 }
 
 function toggleQuestion(clickedElement) {
-    clickedElement.querySelector(".accordion-btn").classList.toggle("active-question");
+    clickedElement.querySelector(".accordion-btn").classList.toggle("active-button");
 
     var answer = clickedElement.querySelector(".panel");
 
